@@ -1,3 +1,6 @@
+body{
+    background-color: aquamarine;
+}
 .topnav {
 background-color: #333;
 overflow: hidden;
@@ -18,4 +21,28 @@ color: black;
 
 .topnav a.active {
     background-color: #04AA6D;
+}
+
+/* contact  */
+.message-form {
+position: absolute;
+right: 447px;
+margin: 11%;
+max-width: 193px;
+padding: 16px 20px;
+background-color: #333;
+color: #ddd;
+box-sizing: content-box;
+}
+.btn {
+    padding: 16px 20px;
+    color:#333;
+    background-color: #fcf7f7;
+    width: 100%;
+    opacity: 0.9;
+}
+.btn:hover{
+  background-color: #333;
+  color: #fcf7f7;
+  opacity: 1;
 }
